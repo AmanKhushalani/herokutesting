@@ -1,0 +1,95 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#mainContainer {
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+body {
+    background-color: #0a1929;
+}
+
+
+
+#formControl {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    border: 1px solid;
+    border-color: rgba(255, 255, 255, 0.1);
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+#cityInput:active,
+#cityName:active,
+#cityInput:focus,
+#cityName:focus,
+#cityInput,
+#cityName {
+    background-color: #0a1929 !important;
+    color: rgb(144, 202, 249) !important;
+}
+
+.MuiInputLabel-root,
+.MuiInputLabel-formControl,
+#cityName:focus,
+.MuiSvgIcon-root {
+    background-color: #0a1929 !important;
+    color: rgb(144, 202, 249) !important;
+}
+
+
+.css-viou3o-MuiAutocomplete-root {
+    width: 100% !important;
+}
+
+.css-viou3o-MuiAutocomplete-root * {
+    color: rgb(144, 202, 249) !important;
+}
+
+.MuiButton-root {
+    color: rgb(144, 202, 249) !important;
+    border: 1px solid rgb(144, 202, 249) !important;
+}
+
+.headerButton {
+    border: none !important;
+}
+
+.formlink {
+    text-decoration: none;
+    color: #0a1929 !important;
+}
+.navlinks{
+    color:#fff !important;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+.formlink  , .MuiTimelineItem-root * , .MuiTypography-h4{
+    color: rgb(144, 202, 249) !important;
+}
+
+
+.css-v6mo1y-MuiTimelineDot-root{
+    background-color: #fff !important;
+
+}
+
+#dataContainer{
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    row-gap: 1rem;
+}
+
+/* #combo-box-demo{
+    color: rgb(144, 202, 249) !important;
+} */

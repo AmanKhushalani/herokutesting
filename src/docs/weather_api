@@ -1,0 +1,8 @@
+to get city code by postal code= 
+https://dataservice.accuweather.com/locations/v1/search?q={postal code}&apikey=CpAHPUHGDfAyyP0IALftSXh7U4qkXVJK
+
+to get city code by city name = 
+https://dataservice.accuweather.com/locations/v1/search?q={City name}&apikey=CpAHPUHGDfAyyP0IALftSXh7U4qkXVJK
+
+to get 24 hours weather
+http://dataservice.accuweather.com/forecasts/v1/hourly/24hour/{city code}?apikey=CpAHPUHGDfAyyP0IALftSXh7U4qkXVJK
